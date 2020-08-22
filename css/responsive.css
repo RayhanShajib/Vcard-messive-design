@@ -1,0 +1,71 @@
+@media (max-width:768px){
+    div#contact-info {height: 20pc;width: 34pc;}
+ul#navMenu {display: none;}
+section#Intro {display: grid;justify-content: center;align-items: center;}
+div#aboutInfo {display: flex;height: 12pc;left: 0;justify-content: left;}
+div#picture {width: 15.5pc;height: 15.5pc;right: 0;margin-top: -40pc;}
+ul#socialIcons {margin-top: 20pc;}
+img#backgroundImage {width: 70pc;}
+ul#downArrows {top: 89%;}
+section#Education {height: 50%;}
+div#margin-circle-2 {top: 34pc;}
+div#Degree-margin {top: 0;height: 44pc;}
+div#card {cursor: pointer;}
+section#Experience {height: 100%;}
+div#Experience-container {height: 100%;}
+div#Work-margin {top: 0;height: 44pc;}
+section#Portfolio {height: 100%;}
+div#Portfolio-box {height: 100%;height: 117pc;}
+div#name-profession {margin-top: 20pc;}
+}
+@media (max-width:864px){
+    ul#navMenu {display: none;}
+section#Intro {display: grid;justify-content: center;align-items: center;}
+div#aboutInfo {display: flex;height: 12pc;left: 0;justify-content: left;}
+div#picture {width: 15.5pc;height: 15.5pc;right: 0;margin-top: -40pc;}
+ul#socialIcons {margin-top: 20pc;}
+img#backgroundImage {width: 70pc;}
+ul#downArrows {top: 89%;}
+div#name-profession {margin-top: 20pc;left: 0px;} 
+div#Portfolio-box {height: 100%;}
+section#Portfolio {height: 100%;}
+}
+@media (max-width:992px){
+   div#picture {width: 15.5pc;height: 15.5pc;}
+div#Degree-body-2 {width: 93%;}
+div#Degree-body {width: 93%;}
+div#Work-body-2 {width: 93%;}
+div#Work-body {width: 93%;}
+div#Degree-body {width: 93%;}
+div#Degree-body-2{width: 93%;}
+section#Portfolio {height: 100%;}
+#contact-info-container {width: 100%;height: 100%;display: grid;grid-template-columns: 1fr 1fr;justify-content: center;align-items: center;}
+div#contact-box {display: grid;height: 100%;width: 100%;}
+section#Contact {height: 100%;width: 100%;}
+#contact-info {height: 15pc;justify-self: center;display: grid;}
+#cicdiv p strong, #cicdiv h5 {text-align: center;justify-content: center;}
+#contact-info, #contact-body {width: 100%;}
+}
+@media (max-width:1220px){
+    div#skill-box-container {display: grid;width: 53%;justify-content: space-evenly;height: 117pc;}
+section#Skill {height: 100%;}
+div#skill-box {height: 100%;}
+section#Portfolio {height: 100%;}
+div#Service-box-container {display: grid;width: 53%;justify-content: space-evenly;height: 117pc;}
+div#Service-box {height: 100%;}
+section#Service {height: 100%;}
+section#Testimonial {height: 100%;}
+div#testimonial-box {height: 100%;}
+}
+@media (max-width:700px){
+    #contact-info, #contact-body {width: 37pc;}
+.mobile-number,.lname,.fname,.message,.email {width: 35pc;}
+button.submit-button {position: relative;top: -23px;}
+}
+@media (max-width:600px){
+    #contact-info, #contact-body {width: 35pc;}
+.mobile-number,.lname,.fname,.message,.email {width: 35pc;}
+button.submit-button {position: relative;top: -23px;}
+div#contact-info {height: 20pc;width: 30pc;}
+#contact-info, #contact-body {width: 30pc;}
+}
